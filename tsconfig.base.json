@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* 語言和環境 */
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    /* 型別檢查 */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    /* 輸出 */
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    /* 互操作性 */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+
+    /* 其他 */
+    "skipLibCheck": true,
+    "incremental": true
+  },
+  "exclude": ["node_modules", "dist", "build"]
+}
